@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+/* @font-face{
+  font-family: myFont;
+  src: url(../fonts/BebasNeue-Regular.eot)
+
+} */
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+ul li {
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.app{
+  background: url("../img/desktop-banner.jpg") ;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  /* height: 100vh; */
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  background-position: center;
+  background-size:cover;
+
+  background-repeat: no-repeat;
+ 
+ 
+}
+.line1 h1{
+ padding-top: 1rem;
+  color: #fff;
+  /* font-family: myFont; */
+  font-size: 2.5rem;
+ 
+}
+.line2{
+  color: #fff;
+  font-size: 1.25rem;
+}
+/* @media(min-aspect-ratio: 16/9){
+  .header img{
+    width:100%;
+    height:auto;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media(max-aspect-ratio: 16/9){
+  .header img{
+    width:auto;
+    height:100%;
+  }
+} */
+.input-fields{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.select{
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-submit{
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 5px;
+border: solid transparent;
+/* background-color: rgb(85, 198, 74); */
+background-color: #07f288;
+background-image: linear-gradient(315deg, #f2cf07 0%, #55d284 74%);
+color: #fff;
+font-size: large;
+cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-submit:hover{
+  background-color: green;
 }

@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  
+}
+.logo{
+    
+    margin-top: 3rem;position: sticky;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  text-transform: uppercase;
+  margin-top: 3.5rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+    border-bottom:1px solid white;
+    padding-bottom: 3px;
+    font-size: larger;
+}
