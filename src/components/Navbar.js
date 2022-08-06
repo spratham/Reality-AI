@@ -6,6 +6,7 @@ const Navbar = () => {
       {/* <div class="container"> */}
         <nav class="navbar">
           <div class="logo"><img src={require('./logo.png')} alt="logo"/> </div>
+          
           <ul class="nav-items">
             <li class="nav-item">
               <a href="./index.html">Home</a>

@@ -4,37 +4,34 @@
 
 } */
 
-.container{
+.container {
   width: 80%;
   margin: 0 auto;
-  
 }
 ul li {
   list-style: none;
 }
 
-.app{
-  background: url("../img/desktop-banner.jpg") ;
+.header {
+  background: url("../img/homepage.jpg");
 
   /* height: 100vh; */
   position: absolute;
-  width: 100%;
-  height: 110%;
+  width: 1520px;
+  height: 817px;
+  /* padding-bottom: 370px; */
   background-position: center;
-  background-size:cover;
+  background-size: cover;
 
   background-repeat: no-repeat;
- 
- 
 }
-.line1 h1{
- padding-top: 1rem;
+.page1 .line1 h1 {
+  padding-top: 1rem;
   color: #fff;
   /* font-family: myFont; */
   font-size: 2.5rem;
- 
 }
-.line2{
+.page1 .line2 {
   color: #fff;
   font-size: 1.25rem;
 }
@@ -50,28 +47,96 @@ ul li {
     height:100%;
   }
 } */
-.input-fields{
+.input-fields {
   display: flex;
 }
-.select{
+.select {
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.btn-submit{
-padding-left: 10px;
-padding-right: 10px;
-border-radius: 5px;
-border: solid transparent;
-/* background-color: rgb(85, 198, 74); */
-background-color: #07f288;
-background-image: linear-gradient(315deg, #f2cf07 0%, #55d284 74%);
-color: #fff;
-font-size: large;
-cursor: pointer;
+.btn-submit {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: solid transparent;
+  /* background-color: rgb(85, 198, 74); */
+  background-color: #07f288;
+  background-image: linear-gradient(315deg, #f2cf07 0%, #55d284 74%);
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
   background-color: green;
+}
+
+/* ############# Page-2 ############### */
+
+.page2 .background {
+  background: url("../img/homepage/resize-16597801141879415527resize16597798161508714415desktopbg2.jpg");
+
+  position: absolute;
+
+  background-position: center;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+
+  position: absolute;
+  width: 1520px;
+  height: 1512px;
+
+  top: 760px;
+}
+
+.page2 .line1 {
+font-size: 70px;
+  position: absolute;
+  top: 7%;
+  left: 10%;
+  color: rgb(17, 17, 81);
+}
+.page2 .line2 {
+  font-size: 70px;
+
+  position: absolute;
+  top: 12%;
+  left: 13%;
+  color: rgb(17, 17, 81);
+}
+
+.page2 .diagram{
+
+  position: absolute;
+  top: 22%;
+  left: 13%;
+}
+
+/* ############## Page-3 ############# */
+
+.page3{
+  position: absolute;
+width: 1362px;
+height: 1238px;
+left: 0px;
+top: 2329px;
+}
+
+.step1 .line2{
+  
+  width: 250px;
+  
+
+}
+.step2 .line2{
+  
+  width: 250px;
+  
+
+}
+.page3 .title{
+  
 }
