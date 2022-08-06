@@ -40,38 +40,57 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="page2">
-        <div className="background">
-          <div className="line1">We know the power of Shop and realize </div>
-          <div className="line2">
-            the <b>CHALLENGES faced</b> in its search
-          </div>
-          <div className="diagram">
-            <img src={require("./images/section-2-img.png")} alt="diagram" />
-          </div>
+      <section className="page2 ">
+        {/* <div className="container"> */}
+        <div className="line">
+          <center>
+            We know the power of Shop and realize the <b>CHALLENGES faced</b> in
+            its search
+          </center>
         </div>
+
+        <div className="diagram">
+          <img src={require("./images/section-2-img.png")} alt="diagram" />
+        </div>
+        {/* </div> */}
       </section>
       <section className="page3">
-        <div className="line1">Our 2 Step approach to shop search</div>
-        <div className="step1">
-          <div className="heading">STEP 1</div>
-          <div className="line1">LOCATION INTELLIGENCE</div>
-          <div className="line2">
-            <center>To dinner best location for your buisness</center>
+        <div className="container">
+          <div className="title">
+            <center>Our 2 Step approach to shop search</center>
           </div>
-        </div>
-        <div className="step2">
-        <div className="heading">STEP 1</div>
-          <div className="line1">LOCATION INTELLIGENCE</div>
-          <div className="line2">
-            <center>To dinner best location for your buisness</center>
+          <div className="step1">
+            <div className="heading">
+              <center>STEP 2</center>
+            </div>
+            <div className="line1">
+              <center>LOCATION INTELLIGENCE</center>
+            </div>
+            <div className="line2">
+              <center>To find best location for your buisness</center>
+            </div>
           </div>
+          <div className="step2">
+            <div className="heading">
+              <center>STEP 2</center>
+            </div>
+            <div className="line1">
+              <center>LOCATION INTELLIGENCE</center>
+            </div>
+            <div className="line2">
+              <center>To find best location for your <br/>buisness</center>
+            </div>
+          </div>
+          <div className="logo1">
+            <img src={require("./images/section-3-img2.png")} alt="diagram" />
+          </div>
+          <div className="logo2">
+            <img src={require("./images/section-3-img.jpg")} alt="diagram" />
+          </div>
+          <div className="line1"></div>
         </div>
-        <div className="logo1"> <img src={require("./images/section-3-img100.png")} alt="diagram" /></div>
-        <div className="logo2"> <img src={require("./images/section-3-img.jpg")} alt="diagram" /></div>
-        <div className="line1"></div>
       </section>
-    </div> 
+    </div>
   );
 }
 
