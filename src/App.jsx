@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Page5Card from "./components/Page5Card";
 function App() {
   return (
     <div className="app">
@@ -61,13 +62,11 @@ function App() {
           </div>
           <div className="step1">
             <div className="heading">
-              <center>STEP 2</center>
+              <center>STEP 1</center>
             </div>
-            <div className="line1">
-              <center>LOCATION INTELLIGENCE</center>
-            </div>
+            <div className="line1">LOCATION INTELLIGENCE</div>
             <div className="line2">
-              <center>To find best location for your buisness</center>
+              <center>To find best location for your buisness.</center>
             </div>
           </div>
           <div className="step2">
@@ -75,10 +74,10 @@ function App() {
               <center>STEP 2</center>
             </div>
             <div className="line1">
-              <center>LOCATION INTELLIGENCE</center>
+              <center>ON GROUND SUPPORT</center>
             </div>
             <div className="line2">
-              <center>To find best location for your <br/>buisness</center>
+              <center>Single point contact field visitations.</center>
             </div>
           </div>
           <div className="logo1">
@@ -90,6 +89,57 @@ function App() {
           <div className="line1"></div>
         </div>
       </section>
+      <section className="page4">
+        <div className="title">Choose your buisness location with</div>
+        <div className="end-line container">
+          <center>YOUR SHOP</center>
+        </div>
+      </section>
+      <section className="page5">
+        <div className="title">
+          <center>YOU GET</center>
+        </div>
+        <div className="Page5Card-wrapper">
+          <Page5Card
+            image={
+              <img src={require("./images/section-5-img.png")} alt="image1" />
+            }
+            line1="Customized Analysis"
+            line2="We hear you, understand you and 'then' solve for you, Every search is unique, so is our approach"
+          />
+
+          <Page5Card
+            image={
+              <img src={require("./images/section-5-img2.png")} alt="image2" />
+            }
+            line1="Faster Decision Making"
+            line2="We hear you, understand you and 'then' solve for you, Every search is unique, so is our approach"
+          />
+
+          <Page5Card
+            image={
+              <img src={require("./images/section-5-img3.png")} alt="image3" />
+            }
+            line1="One Stop Solution"
+            line2="We hear you, understand you and 'then' solve for you, Every search is unique, so is our approach"
+          />
+        </div>
+      </section>
+      <section className="page6"></section>
+      <section className="page7">
+        <div className="container">
+          <div className="line1">
+            Give your Buisness the Best chance of success
+          </div>
+          <div className="line2">
+            Unlock the <b>secret power</b>
+            <br />
+            that makes the big brands <b>successful!</b>
+          </div>
+        </div>
+      </section>
+      <section className="page8"></section>
+      <footer className="footer"></footer>
     </div>
   );
 }

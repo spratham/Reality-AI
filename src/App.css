@@ -129,10 +129,10 @@ ul li {
 
 .step1 {
   position: absolute;
-  top: 260px;
+  top: 230px;
   /* border: 2px solid black; */
   left: 240px;
-  width:400px
+  width: 400px;
 }
 
 .logo2 {
@@ -148,19 +148,20 @@ ul li {
   /* border: 2px solid black; */
   top: 550px;
   left: 170px;
+  
 }
 .step2 {
   position: absolute;
   top: 620px;
   /* border: 2px solid black; */
-  left: 960px;
+  left: 850px;
 }
 
 .step1 .heading {
   font-weight: 700;
   font-size: 65px;
   color: rgb(98, 160, 201);
-
+margin-left: 35px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -174,28 +175,167 @@ ul li {
 }
 .step1 .line1 {
   font-size: 36px;
-  margin-top: 0.7rem;
-  color: rgb(17, 17, 81); width:430px
-
-}
-.step2 .line1 {
-  font-size: 35px;
-  margin-top: 0.7rem;
-  color: rgb(17, 17, 81); width:430px
+  font-weight: 400;
+  margin-top: 1.5rem;
+  color: rgb(20, 20, 130);
+  width: 630px;
+  /* border: 2px solid black; */
 }
 .step1 .line2 {
+  position: absolute;
   font-size: 33px;
-  /* margin-top: 0.5rem; */
+  margin-top: 0rem;
   color: rgb(17, 17, 81);
   /* letter-spacing: 1px; */
   width: 430px;
   color: grey;
+  right: -1.3rem;
+  /* border: 1px solid black; */
 }
+.step2 .line1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 1.5rem;
+  color: rgb(20, 20, 130);
+  width: 630px;
+}
+
 .step2 .line2 {
   font-size: 33px;
-  /* margin-top: 0.5rem; */
+  margin-top: 0rem;
   color: rgb(17, 17, 81);
   /* letter-spacing: 1px; */
-  width: 430px;
+  width: 500px;
   color: grey;
+  margin-left: 65px;
+  /* border: 2px solid black; */
+
+}
+
+/* ############ Page 4 ########## */
+
+.page4 {
+  background: url("./images/resize-1659800270912943452section4img.jpg");
+  position: absolute;
+  width: 1520px;
+  height: 2152px;
+  background-repeat: no-repeat;
+  /* left: 50px; */
+  top: 3430px;
+  /* background-position: center; */
+  /* background-size: cover; */
+}
+.page4 .title {
+  position: absolute;
+  top: 6rem;
+  color: #fff;
+  font-size: 62px;
+  font-weight: 700;
+  left: 135px;
+}
+.page4 .end-line {
+  position: relative;
+  color: #fff;
+  font-size: 67px;
+  top: 1830px;
+  font-weight: 700;
+  color: aqua;
+}
+.page4 .title::after {
+  content: " REASON";
+  color: aqua;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+/* ############ PAGE-5 ############## */
+
+.page5 {
+  background-color: #fff;
+  position: absolute;
+  width: 1520px;
+  height: 900px;
+  left: 0px;
+  top: 5429px;
+}
+
+.Page5Card-wrapper {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 1480px;
+left: 2rem;
+/* align-items: center; */
+
+}
+.page5 .title {
+  font-size: 60px;
+  margin-top: 6rem;
+  margin-bottom: 2.5rem;
+  color: darkblue;
+}
+
+/* ############ PAGE-6 ############## */
+.page6 {
+  background: url("../img/homepage/resize-16598030832146595424section6bg.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1520px;
+  height: 816px;
+  left: 0px;
+  top: 6380px;
+}
+
+/* ############ PAGE-7 ############## */
+
+.page7 {
+  /* background-color: grey; */
+  background: url("../img/homepage/page7.jpg");  position: absolute;
+  width: 1520px;
+  height: 722px;
+  left: 0px;
+  top: 7190px;
+  /* border: 2px solid saddlebrown; */
+}
+
+.page7 .line1{
+  color: rgb(20, 79, 161);
+  width: 650px;
+  font-size: 52px;
+  position: absolute;
+  top:8rem;
+  left: 12rem;
+}
+
+.page7 .line2{
+  position: absolute;
+  top: 27rem;
+  font-size: xx-large;
+  width: 650px;
+  color: rgb(20, 79, 161);
+  left: 12rem;
+  /* border: 2px solid black; */
+}
+
+/* ############ PAGE-8 ############## */
+
+.page8 {
+  background-color: darkblue;
+  position: absolute;
+  width: 1522px;
+  height: 849px;
+  left: 0px;
+  top: 7920px;
+}
+
+/* ############ PAGE-9 ############## */
+
+.footer {
+  background: url("../img/homepage/footer-bg.jpg");
+  position: absolute;
+  width: 1522px;
+  height: 851px;
+  left: 0px;
+  top: 8755px;
 }
