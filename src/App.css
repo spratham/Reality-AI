@@ -108,7 +108,7 @@ ul li {
 
   width: 1519px;
   /* height: 1512px; */
-  height: 1238px;
+  height: 1100px;
   /* left: 30px; */
   top: 2329px;
   /* background-color: grey; */
@@ -122,14 +122,14 @@ ul li {
 }
 .page3 .title {
   font-size: 70px;
-  color: rgb(19, 19, 165);
+  color: rgb(46, 59, 112);
   margin-top: 6%;
   font-weight: 700;
 }
 
 .step1 {
   position: absolute;
-  top: 240px;
+  top: 260px;
   /* border: 2px solid black; */
   left: 240px;
   width:400px
@@ -139,6 +139,7 @@ ul li {
   position: absolute;
   left: 790px;
   bottom: 690px;
+  top: 170px;
   /* border: 2px solid black; */
 }
 .logo1 {
