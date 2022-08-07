@@ -319,14 +319,31 @@ left: 2rem;
 }
 
 /* ############ PAGE-8 ############## */
+.page8-wrapper{
+  /* border: 2px solid black; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  position: absolute;
+  width: 1480px;
+left: 2rem;
+top:40px;
+/* align-items: center; */
+
+}
 
 .page8 {
-  background-color: darkblue;
+background: #355B84;
+background: -webkit-linear-gradient(right, #355B84, #140749);
+background: -moz-linear-gradient(right, #355B84, #140749);
+background: linear-gradient(to left, #355B84, #140749);
   position: absolute;
   width: 1522px;
   height: 849px;
   left: 0px;
   top: 7920px;
+  color: #fff;
+  /* border:20px solid red; */
 }
 
 /* ############ PAGE-9 ############## */
@@ -337,5 +354,14 @@ left: 2rem;
   width: 1522px;
   height: 851px;
   left: 0px;
-  top: 8755px;
+  top: 8765px;
+  color: white;
+  
+}
+
+.footer p{position: absolute;
+  left: 610px;
+  top: 250px;
+  font-size: 65px;
+  font-weight: 300px;
 }

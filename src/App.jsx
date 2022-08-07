@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Page5Card from "./components/Page5Card";
+import Page8Card from "./components/Page8Card";
 function App() {
   return (
     <div className="app">
@@ -138,8 +139,71 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="page8"></section>
-      <footer className="footer"></footer>
+      <section className="page8">
+        <div className="page8-wrapper">
+          <Page8Card
+            picture={
+              <img
+                src={require("./images/people-portrait-adult-men-preview.jpg")}
+                alt="image3"
+                height="250rem"
+                width="250rem"
+              />
+            }
+            name="Anthony Gonsalvis"
+            designation="Architect"
+            quote="They are the GODS of Realty Search..."
+            p="Lorem ipsum dolor sit amet consecti
+               tur adipisicing elit. Doloremque teoe
+               mpora in magnam quibusdam, amet dee
+               enitir explicabo blanditiis reicien
+               dis culpedeius commodi optio itaqui
+               recusandae quisquam deserunt offici
+               Adipi sciplo magnam quibude optiol."
+          />
+          <Page8Card
+            picture={
+              <img
+                src={require("./images/Greyscale-image-of-man-sitting-in-front-of-plain-grey-background-wearing-a-shirt-and-oval-spectacles.webp")}
+                alt="image4"
+                height="250rem"
+                width="250rem"
+              />
+            }
+            name="Anthony Gonsalvis"
+            designation="Dentist"
+            quote="They are the GODS of Realty Search..."
+            p="Lorem ipsum dolor sit amet consecti
+               tur adipisicing elit. Doloremque teoe
+               mpora in magnam quibusdam, amet dee
+               enitir explicabo blanditiis reicien
+               dis culpedeius commodi optio itaqui
+               recusandae quisquam deserunt offici
+               Adipi sciplo magnam quibude optiol."
+          />
+          <Page8Card
+            picture={
+              <img
+                src={require("./images/photo-1439895306562-dc5a0c7ee823.jfif")}
+                alt="image4"
+                height="250rem"
+                width="250rem"
+              />
+            }
+            name="Anthony Gonsalvis"
+            designation="Builder"
+            quote="They are the GODS of Realty Search..."
+            p="Lorem ipsum dolor sit amet consecti
+               tur adipisicing elit. Doloremque teoe
+               mpora in magnam quibusdam, amet dee
+               enitir explicabo blanditiis reicien
+               dis culpedeius commodi optio itaqui
+               recusandae quisquam deserunt offici
+               Adipi sciplo magnam quibude optiol."
+          />
+        </div>
+      </section>
+      <footer className="footer"><p>FOOTER</p></footer>
     </div>
   );
 }
